@@ -13,6 +13,9 @@ import {
   DropdownItem,
   NavbarText
 } from 'reactstrap';
+import { NavLink as RRNavLink } from 'react-router-dom';
+
+import * as ROUTES from '../constants/routes';
 
 const TopNav = (props) => {
     const [isOpen, setIsOpen] = useState(false);
@@ -27,7 +30,7 @@ const TopNav = (props) => {
           <Collapse isOpen={isOpen} navbar>
             <Nav className="mr-auto" navbar>
               <NavItem>
-                <NavLink href="/">Home</NavLink>
+                <NavLink tag={RRNavLink} exact to={ROUTES.HOME}>Home</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="https://github.com/MaxenceGrenot/educ_city" target="_blank">GitHub</NavLink>

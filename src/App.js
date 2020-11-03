@@ -1,13 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
-import { Button } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootswatch/dist/minty/bootstrap.css';
+
+import { BrowserRouter as Router } from 'react-router-dom';
 import TopNav from './components/Navbar';
 
 function App() {
   return (
-    <TopNav></TopNav>  
+    <Router>
+      <TopNav></TopNav>  
+    </Router>
   );
 }
 
