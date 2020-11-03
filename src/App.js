@@ -3,12 +3,11 @@ import './App.css';
 import { Button } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootswatch/dist/minty/bootstrap.css';
+import TopNav from './components/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <Button className="btn btn-danger">Danger </Button>
-    </div>
+    <TopNav></TopNav>  
   );
 }
 
