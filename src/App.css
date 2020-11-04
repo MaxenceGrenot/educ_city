@@ -1,14 +1,24 @@
 .App {
   text-align: center;
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("/src/images/villedurable.jpeg");
+	height: 100vh;
+	-webkit-background-size:cover;
+	background-size:cover;
+	background-position: center center;
+	position: relative;
+  
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  
+  
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
+
     animation: App-logo-spin infinite 20s linear;
   }
 }
@@ -21,12 +31,81 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color:white;
 }
 
 .App-link {
   color: #61dafb;
 }
+
+*{	
+	margin : 0;
+	padding: 0;
+}
+.wrapper{
+	width: 1170px;
+	margin:auto;
+}
+
+.nav-area{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+
+}
+.nav-area li{
+	display : inline-block;
+}
+.nav-area li a{
+	color: black;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-size: 16px;
+
+}
+.nav-area li a:hover{
+	background:rgb(187, 219, 173);
+	color: #333;
+}
+.logo img{
+	width:370px;
+	float : left;
+	height: auto;
+
+}
+.welcome-text{
+	text-align: center;
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	margin:20% 30%
+	
+}
+.welcome-text h1{
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-size: 60px;
+
+}
+.welcome-text a{
+
+	border: 1px solid white;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 20px;
+	display: inline-block;
+	color:white;
+
+}
+.welcome-text a:hover{
+	background: rgb(187, 219, 173);
+	color: #333;
+
+}
+
 
 @keyframes App-logo-spin {
   from {
