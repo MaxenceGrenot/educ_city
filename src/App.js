@@ -1,20 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
-import { Button } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootswatch/dist/minty/bootstrap.css';
 import React from 'react';
-import { Jumbotron,} from 'reactstrap';
+import { Jumbotron,Button} from 'reactstrap';
 
 
 
 
+
+
+import { BrowserRouter as Router } from 'react-router-dom';
+import TopNav from './components/Navbar';
 
 function App() {
   return (
+
+
+<Router>
+  <TopNav></TopNav>  
     
-    
-    <div className="App">
+      <div className="App">
       <strong><h1>Homepage</h1></strong>
       
       
@@ -60,6 +65,8 @@ function App() {
     
     
     
+    </Router>
+
   );
 }
 
