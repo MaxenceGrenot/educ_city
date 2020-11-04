@@ -6,6 +6,16 @@
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+<<<<<<< HEAD
+=======
+
+    "firebase-admin": "^9.3.0",
+    "firebase-functions": "^3.11.0",
+
+    "bootstrap": "^4.5.3",
+    "bootswatch": "^4.5.3",
+
+>>>>>>> dev
     "react": "^17.0.1",
     "react-app-rewired": "^2.1.6",
     "react-bootstrap": "^1.4.0",
