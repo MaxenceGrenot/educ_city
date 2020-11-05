@@ -71,6 +71,12 @@ const Sante = (props) => {
                     Par ailleurs, ce gaz participe à l’acidification de l’air, des sols et des cours d’eau. Il concourt aussi à la formation d’ozone troposphérique.</p>
 
                 <br/>
+                <Row>
+                    <Col sm="12" md={{ size: 6, offset: 3 }}>
+                        <img src="https://ree.developpement-durable.gouv.fr/local/cache-vignettes/L800xH782/r2-air-ext-9dd15.png?1572944771" height="500" width="500"/>
+                    </Col>
+                </Row>
+
                 <br/>
 
                 <Row>

@@ -30,11 +30,13 @@ const Agriculture = (props) => {
                     L'eau est une resource vitale inégalement répartie sur la terre, à cause de l'utilisation des pesticides l'arrosage des plantes enméne avec lui des
                     particules nocives qui entraine la pollutions des nappe phréatique. </p>
 
-                <Col>
+                <Col sm="12" md={{ size: 6, offset: 3 }}>
 
-                    <img src="/public/images/nappe.jpg"/>
+                    <img src="http://apieee.org/wp-content/uploads/2016/12/GRAPHIQUES16.jpg" height="300" width="400"/>
 
                 </Col>
+
+                <br/>
 
                 <p>Le bétail et les engrais chimiques seraient responsables de 55% de la pollution atmosphérique liée aux activités humaines, d’après une étude réalisée
                     par l’Institut de la Terre à l’Université de Colombia. Il a fallu longtemps pour établir le lien entre la pollution aux particules fines et l’ammoniac
@@ -53,27 +55,38 @@ const Agriculture = (props) => {
                     </Col>
                 </Row>
 
-                <p>Contrairement à l’agriculture intensive et classique, l’agriculture éco-responsable se focalise principalement sur le respect de l’environnement et
-                    non sur le rendement de la production. Pour ce faire, l’agriculture éco-responsable emploie les produits chimiques et les OGM au strict minimum.
-                    En effet, les agriculteurs produisant dans cette pratique doivent demander l’aval de la chambre d’agriculture pour employer ce type de produits,
-                    et uniquement en dernier recours afin de sauver une récolte d’une maladie ou champignon tenace et après avoir employé toutes les méthodes saines pour
-                    l’environnement.
-                    En plus des restrictions sur les produits, l’agriculture éco-responsable se focalise sur une production demandant le moins d’eau possible.
-                    L’état actuel des nappes phréatiques et autres sources d’eau potable étant alarmant, cet objectif pourrait à long terme permettre aux sources de
-                    retrouver un état plus sain.
-                    Pour atteindre cet objectif, les agriculteurs privilégient une pousse en plein air et fatigant peu la terre. La terre des cultures intensives et
-                    classiques est à ce jour épuisée par l’usage des produits chimiques et n’absorbe plus l’eau des pluies. La plante a donc besoin d’une source extérieure pour s’hydrater. En agriculture éco-responsable, la terre est en meilleure santé et absorbe l’eau de pluie, donnant aux plantes tout ce dont elle ont besoin. Retrouvez en livraison corbeilles de fruits et panier de fruits et légume en livraison dans les grande ville de France
-                    Un enjeu sanitaire
-                    En respectant les objectifs écologiques fixés par l’agriculture éco-responsable, les produits qui en sont issus sont bien meilleurs, aussi bien pour la
-                    santé que au goût.
-                    Les plantes produites par l’agriculture éco-responsable ne sont pas gorgées de pesticides, par conséquent, celles que l’on mange et les animaux qui les
-                    mangent ne sont pas dangereux pour notre santé, en risquant une intoxication ou un empoisonnement car le produit était mal nettoyé.
-                    De plus, les plantes ayant grandi en plein soleil et avec moins d’eau, possèdent plus de chair et moins de liquide à l’intérieur. Le goût y est plus prononcé,
-                    ce qui ravira les consommateurs.
-                    Même si l’agriculture éco-responsable se focalise principalement sur la culture, par rapport à l’agriculture raisonnée, ils essaient d’aller plus loin. En effet,
-                    ils appuient aussi leurs efforts sur les transports des produits, en favorisant les circuits courts, limitant les émissions de gaz à effet de serre durant les transports. Il existe aussi toute une logistique sur le conditionnement des produits permettant de respecter au maximum l’environnement.
-                    Tous ces objectifs permettent donc d’améliorer la santé des êtres vivants mais aussi celle de la planète en ayant des principes sur le long terme, ayant pour but
-                    de ne jamais épuiser les ressources de la planète.</p>
+                <Row>
+
+                    <Col xs="6" sm="4">
+                        <img src="https://s2.qwant.com/thumbr/0x380/d/3/5f3cf7ddffc350b184e9e0199c11de058194127e84ecbe6fecb54c81dfb2fb/eco-responsable.jpg?u=http%3A%2F%2Fwww.transport-sprint.fr%2Fwp-content%2Fuploads%2F2014%2F09%2Feco-responsable.jpg&q=0&b=1&p=0&a=1" height="300" width="300"/>
+                    </Col>
+
+                    <Col>
+                        <p>Contrairement à l’agriculture intensive et classique, l’agriculture éco-responsable se focalise principalement sur le respect de l’environnement et
+                            non sur le rendement de la production. Pour ce faire, l’agriculture éco-responsable emploie les produits chimiques et les OGM au strict minimum.
+                            En effet, les agriculteurs produisant dans cette pratique doivent demander l’aval de la chambre d’agriculture pour employer ce type de produits,
+                            et uniquement en dernier recours afin de sauver une récolte d’une maladie ou champignon tenace et après avoir employé toutes les méthodes saines pour
+                            l’environnement.
+                            En plus des restrictions sur les produits, l’agriculture éco-responsable se focalise sur une production demandant le moins d’eau possible.
+                            L’état actuel des nappes phréatiques et autres sources d’eau potable étant alarmant, cet objectif pourrait à long terme permettre aux sources de
+                            retrouver un état plus sain.
+                            Pour atteindre cet objectif, les agriculteurs privilégient une pousse en plein air et fatigant peu la terre. La terre des cultures intensives et
+                            classiques est à ce jour épuisée par l’usage des produits chimiques et n’absorbe plus l’eau des pluies. La plante a donc besoin d’une source extérieure pour s’hydrater. En agriculture éco-responsable, la terre est en meilleure santé et absorbe l’eau de pluie, donnant aux plantes tout ce dont elle ont besoin. Retrouvez en livraison corbeilles de fruits et panier de fruits et légume en livraison dans les grande ville de France
+                            Un enjeu sanitaire
+                            En respectant les objectifs écologiques fixés par l’agriculture éco-responsable, les produits qui en sont issus sont bien meilleurs, aussi bien pour la
+                            santé que au goût.
+                            Les plantes produites par l’agriculture éco-responsable ne sont pas gorgées de pesticides, par conséquent, celles que l’on mange et les animaux qui les
+                            mangent ne sont pas dangereux pour notre santé, en risquant une intoxication ou un empoisonnement car le produit était mal nettoyé.
+                            De plus, les plantes ayant grandi en plein soleil et avec moins d’eau, possèdent plus de chair et moins de liquide à l’intérieur. Le goût y est plus prononcé,
+                            ce qui ravira les consommateurs.
+                            Même si l’agriculture éco-responsable se focalise principalement sur la culture, par rapport à l’agriculture raisonnée, ils essaient d’aller plus loin. En effet,
+                            ils appuient aussi leurs efforts sur les transports des produits, en favorisant les circuits courts, limitant les émissions de gaz à effet de serre durant les transports. Il existe aussi toute une logistique sur le conditionnement des produits permettant de respecter au maximum l’environnement.
+                            Tous ces objectifs permettent donc d’améliorer la santé des êtres vivants mais aussi celle de la planète en ayant des principes sur le long terme, ayant pour but
+                            de ne jamais épuiser les ressources de la planète.</p>
+
+                    </Col>
+
+                </Row>
                 <Row>
                     <Col sm="12" md={{ size: 6, offset: 5 }}>
                         <Button className="btn-success">Quiz</Button>

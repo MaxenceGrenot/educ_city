@@ -39,9 +39,13 @@ const Energies = (props) => {
                     ans les réserves accumulées pendant plusieurs centaines de millions d'années (pour fixer les idées, on prendra 200 millions d'années, sachant que le carbonifère
                     dura environ 60 millions d'années). On constate ainsi que l'humanité épuise les réserves de combustibles fossiles environ un million de fois plus vite que ce
                     que la nature a mis pour les constituer.</p>
-
-
                 <br/>
+
+                <Row>
+                    <Col sm="12" md={{ size: 6, offset: 3 }}>
+                        <img src="https://s2.qwant.com/thumbr/0x380/c/f/e6b46240bebc6cdeb8cb034683f19c18539f1fc3a29ea940932bdab1f8f7f6/Panneau_4.jpg?u=http%3A%2F%2Fwww.jpb-imagine.com%2FSharjah%2F5_C4_2016%2F53_Terre_Th1%2F53c_Ressources%2Fdoc53c%2FChap1%2FEnergiepourdemain%2FPanneau_4.jpg&q=0&b=1&p=0&a=1" height="500" width="600"/>
+                    </Col>
+                </Row>
                 <br/>
 
                 <Row>
@@ -57,12 +61,19 @@ const Energies = (props) => {
                     verte est puisée grâce à l’intervention de phénomènes naturels tels que le soleil, le vent, l’eau et ses courants, ou encore la biomasse. Reste alors aux hommes
                     de savoir l’exploiter intelligemment !</p>
                 <br/>
+
+                <Row>
+                    <Col sm="12" md={{ size: 6, offset: 3 }}>
+                        <img src="https://s1.qwant.com/thumbr/0x380/8/6/829a4a6241fd2c18d74a974525d52a51479f9457fabb8303e206995b22da04/%C3%A9nergie_verte_begique-1024x1024.jpg?u=https%3A%2F%2Fblog.mega.be%2Fwp-content%2Fuploads%2F2018%2F10%2F%25C3%25A9nergie_verte_begique-1024x1024.jpg&q=0&b=1&p=0&a=1" height="300" width="300"/>
+                    </Col>
+                </Row>
+
                 <br/>
 
 
                 <Row>
                     <Col xs="auto">
-                        <h5>Lélectricité verte :</h5>
+                        <h5>L'électricité verte :</h5>
                     </Col>
                 </Row>
 
@@ -104,6 +115,12 @@ const Energies = (props) => {
                     ce qu’on appelle le biométhane et peut servir à la production de chaleur mais aussi d’électricité ! A noter qu’outre le biogaz, des fournisseurs d’énergie
                     proposent aussi des offres de gaz compensé carbone. Le principe est simple : le consommateur paye légèrement plus chère son offre de gaz naturel et en
                     contrepartie le fournisseur s’engage à financer des actions en vue de réduire les émissions de gaz à effet de serre sur différentes parties du globe.</p>
+
+                <Row>
+                    <Col sm="12" md={{ size: 6, offset: 3 }}>
+                        <img src="https://s1.qwant.com/thumbr/0x380/1/f/a9b426efe7bbd3eea18ccb5f7feebe77f5707ebaf51a58800e45a58692b80d/ob_4dd059_electricite-biogaz.jpg?u=http%3A%2F%2Fimg.over-blog-kiwi.com%2F1%2F48%2F86%2F59%2F20170603%2Fob_4dd059_electricite-biogaz.jpg&q=0&b=1&p=0&a=1" height="300" width="600"/>
+                    </Col>
+                </Row>
 
                 <Row>
                     <Col sm="12" md={{ size: 6, offset: 5 }}>

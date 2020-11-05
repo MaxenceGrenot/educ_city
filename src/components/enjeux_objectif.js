@@ -23,6 +23,8 @@ const EnjeuxObjectif = (props) => {
                     </Col>
                 </Row>
 
+                <br/>
+
                 <p>La révolution industrielle du xixe siècle introduit des critères de croissance essentiellement économiques, principal critère aisément
                     mesurable : ainsi le produit intérieur brut dont l'origine remonte aux années 1930 est souvent vu comme l'indicateur de la richesse d'un pays.
                     Des corrections ont été apportées dans la deuxième moitié du xxe siècle sur le plan social, avec d'importantes avancées sociales.
@@ -53,25 +55,41 @@ const EnjeuxObjectif = (props) => {
                     développement durable, sur la base de trois critères, la cohésion sociale, l'équité et la sécurité. Ils recommandent la prise en compte de ces
                     critères dans les politiques qui s'intéressent plus spécifiquement à la durabilité environnementale</p>
 
+                <br/>
+                <br/>
+
                 <Row>
 
                     <Col xs="auto">
                         <h5>Trois piliers : environnemental, social et économique :</h5>
                     </Col>
                 </Row>
+                <br/>
 
-                <p>Le premier à avoir révélé la dimension multi-dimensionnelle et systémique des problèmes de notre époque est l'économiste français René Passet dans
-                    un ouvrage devenu classique : L'économique et le vivant (1979). L'objectif du développement durable est de définir des schémas viables qui concilient
-                    les trois aspects environnemental, social et économique des activités humaines : « trois piliers » à prendre en compte par les collectivités comme par
-                    les entreprises et les individus. La finalité du développement durable est de trouver un équilibre cohérent et viable à long terme entre ces trois enjeux.
-                    En anglais, on parle de « People, Planet, Profit » (3P) pour désigner ces trois piliers (pilars). People pour le social, Planet pour l'environnement, et Profit
-                    pour l'économie. Ils sont associés à la notion de triple performance des entreprises (triple bottom line en anglais).
-                    À ces trois piliers s'ajoute un enjeu transversal, indispensable à la définition et à la mise en œuvre de politiques et d'actions relatives au développement
-                    durable : la gouvernance. La gouvernance consiste en la participation de tous les acteurs (citoyens, entreprises, associations, élus…) au processus de
-                    décision ; elle est de ce fait une forme de démocratie participative. Ainsi, plusieurs pays d'Afrique ont adopté des plans socio-économiques impliquant
-                    les collectivités locales via des moyens de production autonomes. Selon les termes du rapport Brundtland (1987), « le développement durable n'est pas un
-                    état statique d'harmonie, mais un processus de transformation dans lequel l'exploitation des ressources naturelles, le choix des investissements, l'orientation
-                    des changements techniques et institutionnels sont rendus cohérents avec l'avenir comme avec les besoins du présent ».</p>
+                <Row>
+
+                    <Col xs="6" sm="4">
+                        <img src="https://s1.qwant.com/thumbr/0x380/9/0/3c7f7ebc11ad33f11718cb582469ba43ee988296d7bb6b59b095be4c197041/piliers-developpement-durable-82090726.jpg?u=http%3A%2F%2Fwww.pearltrees.com%2Fs%2Fpic%2For%2Fpiliers-developpement-durable-82090726&q=0&b=1&p=0&a=1" height="300" width="350"/>
+                    </Col>
+
+                    <Col sm={{ size: 6, order: 2 }}>
+                        <p>Le premier à avoir révélé la dimension multi-dimensionnelle et systémique des problèmes de notre époque est l'économiste français René Passet dans
+                            un ouvrage devenu classique : L'économique et le vivant (1979). L'objectif du développement durable est de définir des schémas viables qui concilient
+                            les trois aspects environnemental, social et économique des activités humaines : « trois piliers » à prendre en compte par les collectivités comme par
+                            les entreprises et les individus. La finalité du développement durable est de trouver un équilibre cohérent et viable à long terme entre ces trois enjeux.
+                            En anglais, on parle de « People, Planet, Profit » (3P) pour désigner ces trois piliers (pilars). People pour le social, Planet pour l'environnement, et Profit
+                            pour l'économie. Ils sont associés à la notion de triple performance des entreprises (triple bottom line en anglais).
+                            À ces trois piliers s'ajoute un enjeu transversal, indispensable à la définition et à la mise en œuvre de politiques et d'actions relatives au développement
+                            durable : la gouvernance. La gouvernance consiste en la participation de tous les acteurs (citoyens, entreprises, associations, élus…) au processus de
+                            décision ; elle est de ce fait une forme de démocratie participative. Ainsi, plusieurs pays d'Afrique ont adopté des plans socio-économiques impliquant
+                            les collectivités locales via des moyens de production autonomes. Selon les termes du rapport Brundtland (1987), « le développement durable n'est pas un
+                            état statique d'harmonie, mais un processus de transformation dans lequel l'exploitation des ressources naturelles, le choix des investissements, l'orientation
+                            des changements techniques et institutionnels sont rendus cohérents avec l'avenir comme avec les besoins du présent ».</p>
+                    </Col>
+            </Row>
+
+                <br/>
+                <br/>
 
                 <Row>
 
@@ -79,7 +97,7 @@ const EnjeuxObjectif = (props) => {
                         <h5>Répondre aux besoins des générations actueles et à venir</h5>
                     </Col>
                 </Row>
-
+                <br/>
                 <p>« Le développement durable est un mode de développement qui répond aux besoins du présent sans compromettre la capacité des générations futures de
                     répondre aux leurs ». Rapport Brundtland
                     La définition classique du développement durable provient du rapport Brundtland de la Commission mondiale sur l’environnement et le développement.

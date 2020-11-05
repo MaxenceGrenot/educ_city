@@ -1,6 +1,6 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-import {Container, Col, Row, Media, Button} from 'reactstrap';
+import {Container, Col, Row, Button} from 'reactstrap';
 
 const Introduction = (props) => {
     return (
@@ -16,6 +16,7 @@ const Introduction = (props) => {
                         <h2>Les enjeux et l'objectif :</h2>
                     </Col>
                 </Row>
+                <br/>
 
                 <Row>
                     <Col xs="auto">
@@ -28,6 +29,9 @@ const Introduction = (props) => {
                 <p> Développement durable : le développement durable est un développement qui répond aux besoins du présent sans compromettre la capacité
                     des générations futures de répondre aux leurs</p>
 
+                <br/>
+                <br/>
+
                 <Row>
 
                     <Col xs="auto">
@@ -35,16 +39,42 @@ const Introduction = (props) => {
                     </Col>
                 </Row>
 
-                <p>1909 : Theodore Roosevelt tient un discours dans lequel il se préoccupe de la destruction des ressources naturelles et des générations futures
-                    : « Avec la croissance constante de la population et l’augmentation encore plus rapide de la consommation, notre peuple aura besoin de plus
-                    grandes quantités de ressources naturelles. Si nous, de cette génération, détruisons les ressources, […] qui seront nécessaires à nos enfants,
-                    si nous réduisons la capacité de notre terre à soutenir une population, nous diminuons le niveau de vie, nous enlevons même le droit à la vie
-                    des générations futures sur ce continent ».</p>
+                <Row>
+                    <Col xs="6" sm="4">
+
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Theodore_Roosevelt_circa_1902.jpg" height="250" width="200"/>
+
+                    </Col>
+                    <Col sm={{ size: 6, order: 2 }}>
+                    <p>1909 : Theodore Roosevelt tient un discours dans lequel il se préoccupe de la destruction des ressources naturelles et des générations futures
+                        : « Avec la croissance constante de la population et l’augmentation encore plus rapide de la consommation, notre peuple aura besoin de plus
+                        grandes quantités de ressources naturelles. Si nous, de cette génération, détruisons les ressources, […] qui seront nécessaires à nos enfants,
+                        si nous réduisons la capacité de notre terre à soutenir une population, nous diminuons le niveau de vie, nous enlevons même le droit à la vie
+                        des générations futures sur ce continent ».</p>
+                    </Col>
+                </Row>
+
+                <br/>
+
+                <Row>
+                    <Col xs="6" sm="4">
+
+                        <img src="https://swh-826d.kxcdn.com/wp-content/uploads/2011/05/Harry-truman.jpg" height="250" width="200"/>
+
+                    </Col>
+
+                    <Col sm={{ size: 6, order: 2 }}>
 
                 <p>1949 : le président des États-Unis, Harry S. Truman, dans son discours sur l'état de l'Union, popularise le mot « développement » en prônant une
                     politique d'aide aux pays sous-développés, grâce à l'apport de la connaissance technique des pays industrialisés. Il affirme que « tous les pays,
                     y compris les États-Unis, bénéficieront largement d'un programme constructif pour une meilleure utilisation des ressources mondiales humaines
                     et naturelles ».</p>
+
+                    </Col>
+
+                </Row>
+
+                <br/>
 
                 <p>1951 :
                     L'Union internationale pour la conservation de la nature publie le premier rapport sur l'état de l'environnement dans le monde.
