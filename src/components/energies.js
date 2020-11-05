@@ -70,7 +70,6 @@ const Energies = (props) => {
 
                 <br/>
 
-
                 <Row>
                     <Col xs="auto">
                         <h5>L'électricité verte :</h5>
@@ -109,7 +108,7 @@ const Energies = (props) => {
                     </Col>
                 </Row>
 
-                <p>Le gaz naturel est polluant en raison du CO² qui s’échappe dans l’atmosphère. On entend pourtant peu parler des offres des fournisseurs en biogaz qui nous permettraient de
+                <p>Le gaz naturel est polluant en raison du CO2 qui s’échappe dans l’atmosphère. On entend pourtant peu parler des offres des fournisseurs en biogaz qui nous permettraient de
                     réduire nos émissions de gaz à effet de serre. Le gaz vert ou biogaz est un gaz naturel renouvelable qui est produit par un processus de méthanisation. Il
                     provient des déchets organiques qui par fermentation produisent du biogaz, celui-ci est alors majoritairement composé de méthane. Après épuration, il devient
                     ce qu’on appelle le biométhane et peut servir à la production de chaleur mais aussi d’électricité ! A noter qu’outre le biogaz, des fournisseurs d’énergie

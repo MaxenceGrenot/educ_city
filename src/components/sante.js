@@ -63,7 +63,7 @@ const Sante = (props) => {
 
 
 
-                <p>Le CO est un gaz incolore, inodore et très toxique. Du fait de ses faibles concentrations dans l’air ambiant extérieur, c’est surtout pour l’air
+                <p>Le CO2 est un gaz incolore, inodore et très toxique. Du fait de ses faibles concentrations dans l’air ambiant extérieur, c’est surtout pour l’air
                     intérieur qu’il représente un enjeu sanitaire. En effet, son niveau dans l’air est favorisé par une mauvaise ventilation en milieu clos
                     (embouteillages dans les tunnels, moteurs au ralenti dans les parkings, habitations…) ou par une mauvaise évacuation des produits de combustions
                     (généralement due à des installations mal réglées). Selon le niveau d’exposition, le CO peut provoquer des affections bénignes (vertiges, maux

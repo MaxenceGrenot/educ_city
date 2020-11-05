@@ -98,7 +98,7 @@ const EnjeuxObjectif = (props) => {
                     </Col>
                 </Row>
                 <br/>
-                <p>« Le développement durable est un mode de développement qui répond aux besoins du présent sans compromettre la capacité des générations futures de
+                <p> Le développement durable est un mode de développement qui répond aux besoins du présent sans compromettre la capacité des générations futures de
                     répondre aux leurs ». Rapport Brundtland
                     La définition classique du développement durable provient du rapport Brundtland de la Commission mondiale sur l’environnement et le développement.
                     Ce rapport rappelle une citation célèbre, mais à l'attribution incertaine et très débattue (entre autres, sont fréquemment donnés comme son auteur,
