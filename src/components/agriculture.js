@@ -31,9 +31,6 @@ const Agriculture = (props) => {
                     particules nocives qui entraine la pollutions des nappe phréatique. </p>
 
 
-                
-
-
                 <p>Le bétail et les engrais chimiques seraient responsables de 55% de la pollution atmosphérique liée aux activités humaines, d’après une étude réalisée
                     par l’Institut de la Terre à l’Université de Colombia. Il a fallu longtemps pour établir le lien entre la pollution aux particules fines et l’ammoniac
                     provenant des sources agricoles. Mais les chiffres sont assez préoccupants. Et les pays les plus riches, comme ceux de l’Union Européenne, sont les
