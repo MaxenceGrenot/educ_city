@@ -30,6 +30,11 @@ const Agriculture = (props) => {
                     L'eau est une resource vitale inégalement répartie sur la terre, à cause de l'utilisation des pesticides l'arrosage des plantes enméne avec lui des
                     particules nocives qui entraine la pollutions des nappe phréatique. </p>
 
+                <Col>
+
+                    <img src="/public/images/nappe.jpg"/>
+
+                </Col>
 
                 <p>Le bétail et les engrais chimiques seraient responsables de 55% de la pollution atmosphérique liée aux activités humaines, d’après une étude réalisée
                     par l’Institut de la Terre à l’Université de Colombia. Il a fallu longtemps pour établir le lien entre la pollution aux particules fines et l’ammoniac
