@@ -7,6 +7,7 @@ import TopNav from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
 import SignInPage from './components/SignIn/index';
 import SignUpPage from './components/SignUp/index';
+import { withAuthentication } from './components/Session';
 
 function App() {
   return (
@@ -30,5 +31,5 @@ function App() {
   );
 }
 
-export default App;
+export default withAuthentication(App);
 
