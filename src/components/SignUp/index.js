@@ -4,12 +4,17 @@ import { compose } from 'recompose';
 
 import { withFirebase } from '../Firebase';
 import * as ROUTES from '../../constants/routes';
+import { Container, Row, Form, Col, Button } from 'react-bootstrap';
 
 const SignUpPage = () => (
-    <div>
-        <h1>SignUp</h1>
-        <SignUpForm />
-    </div>
+    <Container>
+        <Row>
+            <Col md={{ span: 6, offset: 3 }}>
+                <h1 className="text-center mt-5 mb-4">Inscription</h1>
+                <SignUpForm />
+            </Col>
+        </Row>
+    </Container>
 );
 
 const INITIAL_STATE = {
@@ -74,47 +79,69 @@ class SignUpFormBase extends Component {
             username === '';
 
         return (
-            <form onSubmit={this.onSubmit}>
-                <input
-                    name="username"
-                    value={username}
-                    onChange={this.onChange}
-                    type="text"
-                    placeholder="Full Name"
-                />
-                <input
-                    name="email"
-                    value={email}
-                    onChange={this.onChange}
-                    type="text"
-                    placeholder="Email Address"
-                />
-                <input
-                    name="passwordOne"
-                    value={passwordOne}
-                    onChange={this.onChange}
-                    type="password"
-                    placeholder="Password"
-                />
-                <input
-                    name="passwordTwo"
-                    value={passwordTwo}
-                    onChange={this.onChange}
-                    type="password"
-                    placeholder="Confirm Password"
-                />
-                <button disabled={isInvalid} type="submit">Sign Up</button>
+            <Form onSubmit={this.onSubmit}>
+                <Form.Group controlId="formEmail">
+                    <Form.Label>Nom d'utilisateur</Form.Label>
+                    <Form.Control
+                        name="username"
+                        value={username}
+                        onChange={this.onChange}
+                        type="text"
+                        placeholder="Votre nom et prénom"
+                    />
+                </Form.Group>
+                <Form.Group controlId="formEmail">
+                    <Form.Label>Adresse Email</Form.Label>
+                    <Form.Control
+                        type="email"
+                        name="email"
+                        value={email}
+                        onChange={this.onChange}
+                        placeholder="Votre adresse E-mail"
+                    />
+                </Form.Group>
+                <Form.Group controlId="formPassword">
+                    <Form.Label>Mot de passe</Form.Label>
+                    <Form.Control
+                        name="passwordOne"
+                        value={passwordOne}
+                        onChange={this.onChange}
+                        type="password"
+                        placeholder="Votre mot de passe"
+                    />
+                </Form.Group>
+
+                <Form.Group controlId="formPasswordVerify">
+                    <Form.Label>Mot de passe</Form.Label>
+                    <Form.Control
+                        name="passwordTwo"
+                        value={passwordTwo}
+                        onChange={this.onChange}
+                        type="password"
+                        placeholder="Confirmé votre mot de passe"
+                    />
+                </Form.Group>
+
+                <Button disabled={isInvalid} variant="outline-secondary" type="submit">
+                    S'inscrire
+                </Button>
 
                 {error && <p>{error.message}</p>}
-            </form>
+            </Form>
         );
     }
 }
 
 const SignUpLink = () => (
-    <p>
-        Don't have an account? <Link to={ROUTES.SIGN_UP}>Sign Up</Link>
-    </p>
+    <Container>
+        <Row>
+            <Col md={{ span: 6, offset: 3 }}>
+                <p>
+                    Vous n'avez pas de compte? <Link to={ROUTES.SIGN_UP}>S'inscrire</Link>
+                </p>
+            </Col>
+        </Row>
+    </Container>
 );
 
 const SignUpForm = compose(
