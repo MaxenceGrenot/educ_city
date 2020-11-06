@@ -27,8 +27,15 @@ const NavigationAuth = () => (
             <Nav.Link href={ROUTES.ENERGIE} className="text-dark">Energie</Nav.Link>
             <Nav.Link href={ROUTES.CONSOMATION} className="text-dark">Consomation</Nav.Link>
             <Nav.Link href={ROUTES.ENJEUX} className="text-dark">Enjeux</Nav.Link>
+            <Nav.Link href={ROUTES.SANTE} className="text-dark">Santé</Nav.Link>
           </NavDropdown>
           <NavDropdown title="Quizs" id="basic-nav-dropdown">
+            <Nav.Link href={ROUTES.QUIZ1} className="text-dark">Quiz intro</Nav.Link>
+            <Nav.Link href={ROUTES.QUIZ2} className="text-dark">Quiz enjeux</Nav.Link>
+            <Nav.Link href={ROUTES.QUIZ3} className="text-dark">Quiz agriculture</Nav.Link>
+            <Nav.Link href={ROUTES.QUIZ4} className="text-dark">Quiz consommation</Nav.Link>
+            <Nav.Link href={ROUTES.QUIZ5} className="text-dark">Quiz energie</Nav.Link>
+            <Nav.Link href={ROUTES.QUIZ6} className="text-dark">Quiz santé</Nav.Link>
           </NavDropdown>
         </Nav>
         <Nav>
