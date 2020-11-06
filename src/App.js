@@ -5,6 +5,10 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import TopNav from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
+import SignInPage from './components/SignIn/index';
+import SignUpPage from './components/SignUp/index';
+import AccountPage from "./components/Account";
+import { withAuthentication } from './components/Session/';
 
 function App() {
   return (
@@ -15,6 +19,15 @@ function App() {
           <Route exact path="/home">
             <Home />
           </Route>
+          <Route exact path="/signin">
+            <SignInPage />
+          </Route>
+          <Route exact path="/signup">
+            <SignUpPage />
+          </Route>
+          <Route exact path="/account">
+            <AccountPage />
+          </Route>
         </Switch>
       </>
     </Router>
@@ -22,5 +35,5 @@ function App() {
   );
 }
 
-export default App;
+export default withAuthentication(App);
 
