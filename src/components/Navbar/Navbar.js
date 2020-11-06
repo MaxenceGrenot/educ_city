@@ -13,37 +13,6 @@ import { Link } from "react-router-dom";
 import SignOutButton from "../SignOut";
 import { auth } from 'firebase-admin';
 
-const TopNav = (props) => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggle = () => setIsOpen(!isOpen);
-
-
-
-  return (
-    <>
-      <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark">
-        <Navbar.Brand href={ROUTES.HOME}>{CONFIG.WEBNAME}</Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mr-auto">
-            <Nav.Link href={ROUTES.CLASSES}>Classes</Nav.Link>
-            <Nav.Link href={ROUTES.GAMES}>Games</Nav.Link>
-          </Nav>
-          <Nav>
-            <Nav.Link href={ROUTES.SIGN_IN}>
-              <Button>Signin</Button>
-            </Nav.Link>
-            <Nav.Link eventKey={2} href={ROUTES.SIGN_UP}>
-              <Button>Signup</Button>
-            </Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
-    </>
-  );
-}
-
 
 const NavigationAuth = () => (
   <>
@@ -52,8 +21,15 @@ const NavigationAuth = () => (
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href={ROUTES.CLASSES}>Cours</Nav.Link>
-          <Nav.Link href={ROUTES.GAMES}>Jeux</Nav.Link>
+          <NavDropdown title="Cours" id="basic-nav-dropdown">
+            <Nav.Link href={ROUTES.INTRO} className="text-dark">Introduction</Nav.Link>
+            <Nav.Link href={ROUTES.AGRICULTURE} className="text-dark">Agriculture</Nav.Link>
+            <Nav.Link href={ROUTES.ENERGIE} className="text-dark">Energie</Nav.Link>
+            <Nav.Link href={ROUTES.CONSOMATION} className="text-dark">Consomation</Nav.Link>
+            <Nav.Link href={ROUTES.ENJEUX} className="text-dark">Enjeux</Nav.Link>
+          </NavDropdown>
+          <NavDropdown title="Quizs" id="basic-nav-dropdown">
+          </NavDropdown>
         </Nav>
         <Nav>
           <Container>

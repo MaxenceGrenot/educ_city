@@ -6,4 +6,10 @@ export const ACCOUNT = '/account';
 export const ADMIN = '/admin';
 export const PASSWORD_FORGET = '/pw-forget';
 export const GAMES = '/games';
-export const CLASSES = '/classes';
+
+export const AGRICULTURE = '/classes/agriculture';
+export const CONSOMATION = '/classes/consomation';
+export const ENERGIE = '/classes/energie';
+export const ENJEUX = '/classes/enejeux';
+export const INTRO = '/classes/intro';
+export const COURSE = '/classes/courses';
