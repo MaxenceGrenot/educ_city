@@ -112,16 +112,16 @@ const Quiz3 = (props) => {
 function ShowCity(totale) {
 
     if(totale<=2){
-        document.getElementById("showresult").innerHTML = "<img src=\"/public/images/Environnement_allB.png.png\" height=\"320\" width=\'480\'/>"
+        document.getElementById("showresult").innerHTML = "<img src=\"/images/Environnement_allB.png\" height=\"320\" width=\'480\'/>"
     }
     if (totale > 2 && totale <= 3 ){
-        document.getElementById("showresult").innerHTML = "<img src=\"/public/images/Environnement_plastic.png.png\" height=\'320\' width=\'480\'/>"
+        document.getElementById("showresult").innerHTML = "<img src=\"/images/Environnement_plastic.png\" height=\'320\' width=\'480\'/>"
     }
     if (totale > 3 && totale <= 5){
-        document.getElementById("showresult").innerHTML = "<img src=\"/public/images/Environnement_sun.png.png\" height=\'320\' width=\'480\'/>"
+        document.getElementById("showresult").innerHTML = "<img src=\"/images/Environnement_sun.png\" height=\'320\' width=\'480\'/>"
     }
     if (totale === 6 ){
-        document.getElementById("showresult").innerHTML = "<img src=\"/public/images/Environnement_allG.png.png\" height=\'320\' width=\'480\'/>"
+        document.getElementById("showresult").innerHTML = "<img src=\"/images/Environnement_allG.png\" height=\'320\' width=\'480\'/>"
     }
 
 }
