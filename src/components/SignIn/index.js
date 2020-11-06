@@ -6,14 +6,19 @@ import { SignUpLink } from '../SignUp';
 import { PasswordForgetLink } from '../PasswordForget';
 import { withFirebase } from '../Firebase';
 import * as ROUTES from '../../constants/routes';
+import { Container, Row, Form, Col, Button } from 'react-bootstrap';
 
 const SignInPage = () => (
-    <div>
-        <h1>SignIn</h1>
-        <SignInForm />
-        <PasswordForgetLink />
-        <SignUpLink />
-    </div>
+    <Container fluid>
+        <Row>
+            <Col>
+                <h1 className="text-center mt-5 mb-4">Connexion</h1>
+                <SignInForm />
+                <PasswordForgetLink />
+                <SignUpLink />
+            </Col>
+        </Row>
+    </Container>
 );
 
 const INITIAL_STATE = {
@@ -55,27 +60,37 @@ class SignInFormBase extends Component {
         const isInvalid = password === '' || email === '';
 
         return (
-            <form onSubmit={this.onSubmit}>
-                <input
-                    name="email"
-                    value={email}
-                    onChange={this.onChange}
-                    type="text"
-                    placeholder="Email Address"
-                />
-                <input
-                    name="password"
-                    value={password}
-                    onChange={this.onChange}
-                    type="password"
-                    placeholder="Password"
-                />
-                <button disabled={isInvalid} type="submit">
-                    Sign In
-                </button>
-
-                {error && <p>{error.message}</p>}
-            </form>
+            <Container>
+                <Row>
+                    <Col md={{ span: 6, offset: 3 }}>
+                        <Form onSubmit={this.onSubmit}>
+                            <Form.Group controlId="formEmail">
+                                <Form.Label>Adresse Email</Form.Label>
+                                <Form.Control
+                                    type="email"
+                                    name="email"
+                                    value={email}
+                                    onChange={this.onChange}
+                                    placeholder="Votre adresse E-mail"
+                                />
+                            </Form.Group>
+                            <Form.Group controlId="formPassword">
+                                <Form.Label>Mot de passe</Form.Label>
+                                <Form.Control
+                                    type="password"
+                                    name="password"
+                                    value={password}
+                                    onChange={this.onChange}
+                                    placeholder="Votre Mot de passe" />
+                            </Form.Group>
+                            <Button disabled={isInvalid} variant="primary" type="submit">
+                                Connexion
+                        </Button>
+                        </Form>
+                        {error && <p>{error.message}</p>}
+                    </Col>
+                </Row>
+            </Container >
         );
     }
 }
